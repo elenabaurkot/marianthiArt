@@ -1,3 +1,17 @@
+body {
+  background: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1598884611/Projects/Marianthi/IMG_8785_gb7lyf.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.navbar {
+  opacity: 0.75;
+}
+
 .logo {
   font-family: 'Great Vibes', cursive;
   font-size: 2.5em;

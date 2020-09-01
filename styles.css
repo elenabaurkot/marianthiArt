@@ -16,11 +16,16 @@ html {
   font-family: 'Great Vibes', cursive;
   font-size: 2.5em;
   letter-spacing: 0.05em;
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: rgba(255, 255, 255, 0.87) !important;
 }
 
 .nav-item {
   font-family: 'Kalam', cursive;
   font-size: 1.5em;
   letter-spacing: 0.1em;
+}
+
+.home-row {
+  padding-top: 10%;
+  justify-content: space-evenly;
 }

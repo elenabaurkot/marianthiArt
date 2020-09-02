@@ -2,12 +2,11 @@ body {
   background: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1598884611/Projects/Marianthi/IMG_8785_gb7lyf.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  display: flexbox;
+  min-height: 100vh;
 }
 
-html {
-  height: 100%;
-}
-
+/* NAVBAR STYLING */
 .navbar {
   background: rgba(46, 46, 46, 0.6) !important;
 }
@@ -25,7 +24,49 @@ html {
   letter-spacing: 0.1em;
 }
 
+/* HOME PAGE STYLING */
 .home-row {
   padding-top: 10%;
   justify-content: space-evenly;
+}
+
+.info-box {
+  min-height: 25vh;
+  align-items: center;
+  background-color: rgba(46, 46, 46, 0.5);
+  padding: 0;
+  display: flex;
+  border: 1px rgb(240, 240, 240, 0.5) solid;
+  border-radius: 10px;
+  text-align: center;
+  /* Maybe change font to Kalam */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+}
+.art-box:hover,
+.about-box:hover {
+  background-color: rgb(215, 211, 211, 0.5);
+  transition: 0.5s ease-in-out;
+  font-size: 1.3em;
+}
+.art-box:hover {
+  transform: rotate(25deg);
+}
+.about-box:hover {
+  transform: rotate(-25deg);
+}
+
+.info-link {
+  height: 100% !important;
+  padding-top: 10vh;
+  display: block;
+  width: 100%;
+  text-decoration: none !important;
+  margin: 0 !important;
+  color: rgba(255, 255, 255, 0.87);
+}
+.info-link:hover {
+  color: rgba(46, 46, 46);
 }

@@ -70,3 +70,11 @@ body {
 .info-link:hover {
   color: rgba(46, 46, 46);
 }
+
+/* Artwork and About Container Styling */
+.container {
+  /* min-height: fit-content; */
+  min-height: 70vh;
+  background-color: rgb(232, 232, 232, 0.5);
+  border-radius: 8px;
+}

@@ -1,4 +1,4 @@
-body {
+.background-img {
   background: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1598884611/Projects/Marianthi/IMG_8785_gb7lyf.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -7,7 +7,7 @@ body {
 }
 
 /* NAVBAR STYLING */
-.navbar {
+.navbar-main {
   background: rgba(46, 46, 46, 0.6) !important;
 }
 
@@ -62,7 +62,7 @@ body {
   height: 100% !important;
   padding-top: 10vh;
   display: block;
-  width: 100%;
+  width: 100% !important;
   text-decoration: none !important;
   margin: 0 !important;
   color: rgba(255, 255, 255, 0.87);
@@ -73,8 +73,56 @@ body {
 
 /* Artwork and About Container Styling */
 .container {
-  /* min-height: fit-content; */
-  min-height: 70vh;
-  background-color: rgb(232, 232, 232, 0.5);
-  border-radius: 8px;
+  max-width: 95% !important;
+  min-height: fit fit-content;
+  flex-wrap: wrap;
+}
+.horizontal-box {
+  height: 35%;
+  width: 45%;
+}
+.art-sample-horizontal {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.75em;
+  margin-top: 3%;
+}
+.vertical-box {
+  height: 65%;
+  width: 45%;
+}
+.art-sample-vertical {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.75em;
+  margin-top: 3%;
+}
+
+@media only screen and (max-width: 980px) {
+  .horizontal-box {
+    height: 50%;
+    width: 75%;
+    margin-bottom: 3% !important;
+  }
+  .container {
+    margin-top: 4% !important;
+  }
+  .vertical-box {
+    height: 80%;
+    width: 65%;
+    margin-top: 0;
+    margin-bottom: 3% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .horizontal-box {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 3% !important;
+  }
+  .container {
+    width: 100%;
+    padding: 0 !important;
+  }
 }

@@ -7,10 +7,12 @@
 }
 
 /* NAVBAR STYLING */
-.navbar-main {
-  background: rgba(46, 46, 46, 0.6) !important;
+.navbar {
+  background: rgba(46, 46, 46, 0.7) !important;
 }
-
+.darker-nav {
+  background: rgba(46, 46, 46, 0.9) !important;
+}
 .logo {
   font-family: 'Great Vibes', cursive;
   font-size: 2.5em;
@@ -76,6 +78,7 @@
   max-width: 95% !important;
   min-height: fit fit-content;
   flex-wrap: wrap;
+  margin-top: 8%;
 }
 .horizontal-box {
   height: 35%;
@@ -97,7 +100,11 @@
   border-radius: 0.75em;
   margin-top: 3%;
 }
+.img-click {
+  border: 1px solid rgb(79, 78, 78, 0.5);
+}
 
+/* MEDIA QUERIES */
 @media only screen and (max-width: 980px) {
   .horizontal-box {
     height: 50%;
@@ -105,13 +112,19 @@
     margin-bottom: 3% !important;
   }
   .container {
-    margin-top: 4% !important;
+    margin-top: 10% !important;
   }
   .vertical-box {
     height: 80%;
     width: 65%;
     margin-top: 0;
     margin-bottom: 3% !important;
+  }
+}
+
+@media only screen and (max-width: 807px) {
+  .container {
+    margin-top: 15% !important;
   }
 }
 
@@ -124,5 +137,11 @@
   .container {
     width: 100%;
     padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    margin-top: 40% !important;
   }
 }

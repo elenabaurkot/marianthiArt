@@ -36,6 +36,11 @@ footer {
   bottom: 0;
   position: relative;
 }
+.footer-dark {
+  opacity: 0.9;
+  height: 45px;
+}
+
 .footer-text {
   color: rgba(236, 236, 236, 0.9);
   font-size: 0.8em;
@@ -121,6 +126,17 @@ footer {
 }
 .img-click {
   border: 1px solid rgb(79, 78, 78, 0.5);
+}
+
+/* ABOUT PAGE STYLING */
+.artist {
+  height: 300px;
+  width: 200px;
+  border-radius: 3%;
+  border: 1px solid rgba(73, 73, 73, 0.65);
+}
+.about-row {
+  width: 78%;
 }
 
 /* MEDIA QUERIES */

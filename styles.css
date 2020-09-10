@@ -135,8 +135,11 @@ footer {
   border-radius: 3%;
   border: 1px solid rgba(73, 73, 73, 0.65);
 }
-.about-row {
-  width: 78%;
+.about-text {
+  font-size: 1.5em;
+  /* font-family: 'Baloo Tammudu 2', cursive; */
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 0.05em;
 }
 
 /* MEDIA QUERIES */

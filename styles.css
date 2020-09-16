@@ -131,13 +131,13 @@ footer {
 
 /* ABOUT PAGE STYLING */
 .artist {
-  height: 300px;
-  width: 200px;
+  height: auto;
+  width: 20%;
   border-radius: 3%;
   border: 1px solid rgba(73, 73, 73, 0.65);
 }
 .about-text {
-  font-size: 1.5em;
+  font-size: 1.6em;
   /* font-family: 'Baloo Tammudu 2', cursive; */
   font-family: 'PT Sans Narrow', sans-serif;
   letter-spacing: 0.05em;
